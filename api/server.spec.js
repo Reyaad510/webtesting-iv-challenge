@@ -30,4 +30,4 @@ describe('GET /actors', () => {
         expect(res.status).toBe(200);
         expect(res.body).toEqual([]);
     })
-})
+});
